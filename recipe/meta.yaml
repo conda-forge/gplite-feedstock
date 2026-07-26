@@ -1,4 +1,4 @@
-{% set version = "3.1.6" %}
+{% set version = "3.1.7" %}
 
 package:
   name: gplite
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/g/gplite/gplite-{{ version }}.tar.gz
-  sha256: 6fc0ec78605b5eabb5731135eb5d5f1447063d54af9e7803f6fdec1220684547
+  sha256: 13fb6d2f430e0f24ab0ff10b8f18ea6b085b4d80274b88f77189e6ef4bc0acba
 
 build:
   noarch: python
